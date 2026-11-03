@@ -1,8 +1,8 @@
-# RPG Erweiterung für MyBB ACP
-Dieses Modul erweitert den Admin-Bereich (ACP) von MyBB um den Reiter "RPG Erweiterung". Es bietet die gleichen Hooks wie andere Module und ermöglicht die zukünftige Verwaltung von Plugins direkt über das ACP. Das Modul enthält zusätzlich zwei Funktionen:</br>
+# RPG extension for MyBB ACP
+This module extends the MyBB Admin Control Panel (ACP) by adding an "RPG Extension" tab. It provides the same hooks as other modules and facilitates the future management of plugins directly from within the ACP. Additionally, the module includes two features:</br>
 <br>
-- Stylesheet aktualisieren: Bei Verlust von Stylesheets durch ein MyBB Update können die Stylesheets von hinterlegten Plugins per Klick wiederhergestellt werden.
-- Plugins updaten: Ermöglicht das Hinterlegen von Update-Skripten über Hooks, sodass Plugin-Updates bequem per Klick ausgeführt werden können.
+- Update Stylesheets: In the event that stylesheets are lost following a MyBB update, those belonging to registered plugins can be restored with a single click.
+- Update Plugins: Allows for the integration of update scripts via hooks, enabling plugin updates to be performed conveniently with a single click.
 
-# Benutzergruppen-Berechtigungen setzen
-Damit alle Admin-Accounts Zugriff auf das Modul haben im ACP, müssen unter dem Reiter Benutzer & Gruppen » Administrator-Berechtigungen » Benutzergruppen-Berechtigungen die Berechtigungen einmal angepasst werden. Die Berechtigungen für das Modul befinden sich im Tab 'RPG Erweiterungen' Dort müssten alle vorhandenen Optionen auf Ja gesetzt werden.
+# Setting User Group Permissions
+To ensure that all admin accounts have access to the module within the ACP, you must adjust the permissions under the tab Users & Groups » Administrator Permissions » User Group Permissions. The permissions for this module can be found under the 'RPG Extensions' tab; all available options there should be set to 'Yes'.
